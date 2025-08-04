@@ -38,7 +38,7 @@ Out of multiple devices scanned, one device (192.168.1.1, likely the router) had
 Other devices were detected as live hosts and no open ports (ports were filtered or reset), which is a good security practice. while few other devices has the open ports ( which i recorded in the screenshots and uploaded in the screenshot folder)
 
 ## Potential Security Risks
-By understanding about different ports i can to know that certain ports possess the potential security risks and are high vulnerable 
+By understanding about different ports i can to know that certain ports possess the potential security risks and are highly vulnerable 
 
 Telnet (port 23): This protocol is outdated and insecure; it transmits data in plain text and is vulnerable to eavesdropping.
 UPnP (port 1900): Frequently associated with vulnerabilities and often exploited in attacks. It’s best to disable UPnP unless strictly needed.
@@ -54,4 +54,5 @@ UPnP (port 1900): Frequently associated with vulnerabilities and often exploited
 Project Files:
  scan_results.txt— Full output from Zenmap
  screenshot folder — Zenmap scan screenshot
+
  README.md — Documentation of task
