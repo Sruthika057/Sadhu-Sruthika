@@ -1,0 +1,66 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 18:15 +0530
+Nmap scan report for 192.168.1.1
+Host is up (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 74:FE:CE:94:A3:18 (TP-Link PTE.)
+
+Nmap scan report for 192.168.1.102
+Host is up (0.050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 1A:A2:31:64:8D:DF (Unknown)
+
+Nmap scan report for 192.168.1.106
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.1.106 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:B1:F9:BC:6A:77 (Unknown)
+
+Nmap scan report for 192.168.1.109
+Host is up (0.096s latency).
+All 1000 scanned ports on 192.168.1.109 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 32:6E:C6:69:93:C8 (Unknown)
+
+Nmap scan report for 192.168.1.128
+Host is up (0.015s latency).
+All 1000 scanned ports on 192.168.1.128 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 6A:EF:F3:85:A3:7A (Unknown)
+
+Nmap scan report for 192.168.1.129
+Host is up (0.013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: 02:37:76:61:CD:99 (Unknown)
+
+Nmap scan report for 192.168.1.131
+Host is up (0.13s latency).
+All 1000 scanned ports on 192.168.1.131 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: A2:0A:90:73:73:16 (Unknown)
+
+Nmap scan report for 192.168.1.135
+Host is up.
+All 1000 scanned ports on 192.168.1.135 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: BC:03:58:7F:95:77 (Intel Corporate)
+
+Nmap scan report for 192.168.1.141
+Host is up (0.0031s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+7070/tcp open  realserver
+
+Nmap done: 256 IP addresses (9 hosts up) scanned in 65.49 seconds
